@@ -1,0 +1,18 @@
+// @import "../../../stylings/variables";
+$primary-color:#009EE2;
+
+.navContainer{
+    z-index: 99999;
+    .primaryColor{
+        color: $primary-color;
+      
+    }
+    a:focus{
+        background-color: red;
+        padding: 10px;
+        border-radius: 20px;
+        
+    }
+    
+}
+

@@ -1,0 +1,13 @@
+.goalsContainer{
+height: 80vh;
+.goals {
+    background-image: linear-gradient(to right, blue , white);
+    height: 200px;
+    .cardContainer{
+        top:120px
+    }
+    .cardGoal{
+        max-width: 300px;
+    }
+  }
+}

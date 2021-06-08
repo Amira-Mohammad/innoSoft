@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @import "~bootstrap/dist/css/bootstrap.css";
+
+
+:root {
+
+    /* Font/text values */
+    --unnamed-font-family-frutigerltarabic-55roman: FrutigerLTArabic-55Roman;
+    --unnamed-font-family-cairo-bold: Cairo-Bold;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-24: 24px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-18: 18px;
+    --unnamed-line-spacing-46: 46px;
+    }
+    
+    /* Character Styles */
+    .subtitles-2-regular-right {
+    font-family: var(--unnamed-font-family-frutigerltarabic-55roman);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-24);
+    line-height: var(--unnamed-line-spacing-46);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-f7f8f8);
+    }
+    .button-label-primary-default-enabled {
+    font-family: var(--unnamed-font-family-cairo-bold);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-18);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    }
